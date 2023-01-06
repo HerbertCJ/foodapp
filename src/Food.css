@@ -1,0 +1,46 @@
+.addSection {
+    text-align: center;   
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgb(172, 243, 172);
+}
+
+.addSection h1 {
+    font-size: 1.1em;
+    color: green;
+}
+
+.section {
+    width: 400px;
+    margin: 10px auto;
+    background-color: rgba(248, 252, 255, 0.795);
+    border: 1px solid black;
+    padding: 30px;   
+}
+
+.section:nth-child(even) {
+    background-color: rgb(213, 233, 250);
+}
+
+.section input[type="text"] {
+    width: 90px;
+}
+
+.addFood {
+    float: right;  
+}
+
+.deleteBtn {
+    cursor: pointer;
+    float: right;
+    color: red;
+    padding: 3px;      
+    
+}
+
+.items:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.200);
+    margin: 5px 0px;
+}
